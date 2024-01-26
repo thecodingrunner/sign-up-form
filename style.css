@@ -2,19 +2,44 @@
   margin: 0;
 }
 
+
 body {
   display: flex;
+  /* align-items: stretch; */
+  height: 100vh;
 }
 
 .background {
-  flex: 4;
+  flex: 3;
+  background-image: url("images/halie-west-bgr.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form {
-  flex: 6;
+  flex: 7;
+  height: 35vh;
 }
 
 .description {
   height: 30vh;
-  padding: 60px 100px 30px 10px;
+  padding: 60px 50px 30px 10px;
+}
+
+.fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px 250px 20px 30px;
+}
+
+input, 
+label {
+  display: block;
+}
+
+input {
+  width: 250px;
+  height: 20px;
 }
