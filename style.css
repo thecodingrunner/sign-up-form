@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+.background {
+  flex: 4;
+}
+
+.form {
+  flex: 6;
+}
+
+.description {
+  height: 30vh;
+  padding: 60px 100px 30px 10px;
+}
